@@ -18,7 +18,7 @@
     <section>
       <img
         src="dinosaur.png"
-        alt="A red Tyrannosaurus Rex standing upright with small arms and sharp teeth."
+        alt="A red dinosaur."
       />
       <p>
         Here we will add a link to the
@@ -34,12 +34,12 @@
       const sect = document.querySelector("section");
 
       const para = document.createElement("p");
-      para.textContent = "We hope you enjoyed the ride.";
+      para.textContent = "New paragraph";
       para.classList.add("highlight");
       sect.appendChild(para);
 
       const text = document.createTextNode(
-        " - the premier source for web development knowledge.",
+        " - a site with web docs.",
       );
       const linkPara = document.querySelector("p");
       linkPara.appendChild(text);
